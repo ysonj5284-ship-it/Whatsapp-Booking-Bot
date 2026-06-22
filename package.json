@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-salon-booking-bot",
+  "version": "1.0.0",
+  "description": "Multi-tenant WhatsApp booking bot for salons and spas, with Google Calendar slot sync",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.7",
+    "googleapis": "^144.0.0",
+    "lowdb": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
